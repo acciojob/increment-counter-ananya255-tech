@@ -1,9 +1,9 @@
 //your JS code here. If required.
 let counter=0
 function increment(){
-		counter++;
-	doucment.getElementById("counter").innerText=counter
-	alert(counter)
+ alert(counter);
+    counter++;
+    document.getElementById("counter").innerText = counter;
 }
 
 let mybtn=document.getElementById("incrementBtn")
