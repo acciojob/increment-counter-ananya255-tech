@@ -6,6 +6,6 @@ function increment(){
 	alert(counter)
 }
 
-let mybtn=document.getElementByID("incrementBtn")
+let mybtn=document.getElementById("incrementBtn")
 mybtn.addEventListener("click",increment)
 }
