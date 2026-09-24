@@ -2,9 +2,10 @@
 let counter=0
 function increment(){
 		counter++;
-	console.log(counter)
+	doucment.getElementById("counter").innerText=counter
+	alert(counter)
 }
 
-let mybtn=document.getElementByID("btn")
+let mybtn=document.getElementByID("incrementBtn")
 mybtn.addEventListener("click",increment)
 }
